@@ -1,0 +1,48 @@
+feature liga {
+  sub f i by fi;
+  sub f l by fl;
+  sub f f by ff;
+  sub f f i by ffi;
+  sub f f l by ffl;
+} liga;
+feature kern {
+   pos W e -176;
+   pos W a -180;
+   pos R U -61;
+   pos R a -90;
+   pos V x -90;
+   pos n y -57;
+   pos w a -90;
+   pos v e -90;
+   pos k e -70;
+   pos y e -66;
+   pos y a -74;
+   pos y comma -213;
+   pos y hyphen -53;
+   enum pos @_A G -147;
+   enum pos @_A T -242;
+   enum pos @_o_right w -74;
+   enum pos @_o_right v -78;
+   enum pos @_O_right W -119;
+   subtable;
+   enum pos P @_A -205;
+   enum pos W [o c d g q ae agrave aacute acircumflex adieresis atilde aring ccedilla egrave eacute ecircumflex edieresis oe ograve oacute ocircumflex otilde odieresis oslash Ccedilla Ccircumflex ccircumflex ohungarumlaut gbreve cacute ccaron dcroat dz gacute ecaron dcaron uni0201 einvertedbreve ainvertedbreve uni0205 uni020D uni020F] -164;
+   enum pos R [o c d e g q ae agrave aacute acircumflex adieresis atilde aring ccedilla egrave eacute ecircumflex edieresis oe ograve oacute ocircumflex otilde odieresis oslash Ccedilla Ccircumflex ccircumflex ohungarumlaut gbreve cacute ccaron dcroat dz gacute ecaron dcaron uni0201 einvertedbreve ainvertedbreve uni0205 uni020D uni020F] -86;
+   enum pos S @_A -61;
+   enum pos B @_A -49;
+   enum pos X @_O_left -49;
+   enum pos e @_o_left -44;
+   enum pos w [o c d e g q ae agrave aacute acircumflex adieresis atilde aring ccedilla egrave eacute ecircumflex edieresis oe ograve oacute ocircumflex otilde odieresis oslash Ccedilla Ccircumflex ccircumflex ohungarumlaut gbreve cacute ccaron dcroat dz gacute ecaron dcaron uni0201 einvertedbreve ainvertedbreve uni0205 uni020D uni020F] -74;
+   enum pos v [o a c d g q ae agrave aacute acircumflex adieresis atilde aring ccedilla egrave eacute ecircumflex edieresis oe ograve oacute ocircumflex otilde odieresis oslash Ccedilla Ccircumflex ccircumflex ohungarumlaut gbreve cacute ccaron dcroat dz gacute ecaron dcaron uni0201 einvertedbreve ainvertedbreve uni0205 uni020D uni020F] -78;
+   enum pos y [o c d g q ae agrave aacute acircumflex adieresis atilde aring ccedilla egrave eacute ecircumflex edieresis oe ograve oacute ocircumflex otilde odieresis oslash Ccedilla Ccircumflex ccircumflex ohungarumlaut gbreve cacute ccaron dcroat dz gacute ecaron dcaron uni0201 einvertedbreve ainvertedbreve uni0205 uni020D uni020F] -53;
+   enum pos T @_A -238;
+   enum pos T @_o_left -70;
+   enum pos quotedbl @_A -315;
+   subtable;
+   pos @_A @_O_left -139;
+   pos @_O_right @_A -135;
+   pos @_Y_right @_o_left -220;
+} kern;
+
+
+
